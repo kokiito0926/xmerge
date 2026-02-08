@@ -33,6 +33,8 @@
 		"test": "node --test"
 	},
 	"dependencies": {
+		"lodash": "^4.17.23",
+		"xml2js": "^0.6.2",
 		"zx": "^8.8.4"
 	},
 	"engines": {
