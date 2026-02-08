@@ -1,5 +1,5 @@
 {
-	"name": "@kokiito0926/xmerge",
+	"name": "@kokiito0926/xmlmerger",
 	"version": "0.0.0",
 	"private": false,
 	"description": "XMLをマージすることができるコマンドラインのツールです。",
@@ -10,21 +10,21 @@
 		"script",
 		"nodejs",
 		"xml",
-		"xmerge"
+		"xmlmerger"
 	],
-	"homepage": "https://github.com/kokiito0926/xmerge#readme",
+	"homepage": "https://github.com/kokiito0926/xmlmerger#readme",
 	"publishConfig": {
 		"access": "public"
 	},
 	"bin": {
-		"xmerge": "index.js"
+		"xmlmerger": "index.js"
 	},
 	"bugs": {
-		"url": "https://github.com/kokiito0926/xmerge/issues"
+		"url": "https://github.com/kokiito0926/xmlmerger/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/kokiito0926/xmerge.git"
+		"url": "git+https://github.com/kokiito0926/xmlmerger.git"
 	},
 	"license": "MIT",
 	"author": "Koki Ito <kokiito0926@gmail.com>",
