@@ -2,7 +2,7 @@
 
 // >> $ ./index.js ./aaaa.xml ./bbbb.xml > ./cccc.xml
 
-import { fs, path, stdin, argv } from "zx";
+import { fs, argv } from "zx";
 import xml2js from "xml2js";
 import _ from "lodash";
 
