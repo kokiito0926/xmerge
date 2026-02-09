@@ -52,6 +52,11 @@ for (let i = 0; i < files.length; i++) {
 	}
 }
 
-const builder = new xml2js.Builder();
+const builder = new xml2js.Builder({
+	cdata: true,
+	xmldec: { version: "1.0", encoding: "UTF-8" },
+	renderOpts: { pretty: true },
+});
+
 const xml = builder.buildObject(resultObj);
 console.log(xml);
