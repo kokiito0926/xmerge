@@ -2,7 +2,7 @@
 	"name": "@kokiito0926/xmlmerger",
 	"version": "0.0.1",
 	"private": false,
-	"description": "XMLをマージすることができるコマンドラインのツールです。",
+	"description": "複数のXMLのファイルをマージすることができるコマンドラインのツールです。",
 	"keywords": [
 		"cli",
 		"bash",
