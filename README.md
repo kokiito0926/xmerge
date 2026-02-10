@@ -14,7 +14,7 @@ $ npm install --global @kokiito0926/xmlmerger
 複数のXMLのファイルを指定してから、コマンドを実行します。
 
 ```bash
-$ xmlmerger ./original.xml ./source.xml > combined.xml
+$ xmlmerger ./original.xml ./source.xml > ./combined.xml
 ```
 
 ## ライセンス
